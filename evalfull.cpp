@@ -41,10 +41,13 @@ bool balanced(char *expression[], int numTokens) {
                 }
                 break;
         }
+    }
+    if(s.empty()){
         return true;
     }
-
-    return false; // REPLACE THIS return WITH ACTUAL IMPLEMENTATION
+    else{
+        return false;
+    }
 }
 
 // DO NOT CHANGE ANYTHING BELOW - BUT DO READ IT
